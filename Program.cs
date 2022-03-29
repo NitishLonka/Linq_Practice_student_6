@@ -1,4 +1,4 @@
-using Linq_pratice_studnet_6.DataAccess;
+using Linq_practice_studnet_6.DataAccess;
 using Microsoft.EntityFrameworkCore;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);

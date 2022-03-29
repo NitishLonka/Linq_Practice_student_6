@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Linq_pratice_studnet_6.DataAccess;
-using Linq_pratice_studnet_6.Models;
+using Linq_practice_studnet_6.DataAccess;
+using Linq_practice_studnet_6.Models;
 
-namespace Linq_pratice_studnet_6
+namespace Linq_practice_studnet_6
 {
     public class HomeController : Controller
     {

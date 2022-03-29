@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Linq_pratice_studnet_6.Models;
+using Linq_practice_studnet_6.Models;
 
-namespace Linq_pratice_studnet_6.DataAccess
+namespace Linq_practice_studnet_6.DataAccess
 {
     public class SchoolDbContext : DbContext
     {

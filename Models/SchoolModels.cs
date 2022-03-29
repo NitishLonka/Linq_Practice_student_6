@@ -1,4 +1,4 @@
-﻿namespace Linq_pratice_studnet_6.Models
+﻿namespace Linq_practice_studnet_6.Models
 {
     public class College
     {
