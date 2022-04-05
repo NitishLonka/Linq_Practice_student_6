@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 // Setup EF connection
 // https://stackoverflow.com/a/43098152/1385857
 // https://medium.com/executeautomation/asp-net-core-6-0-minimal-api-with-entity-framework-core-69d0c13ba9ab
-builder.Services.AddDbContext<SchoolDbContext>(options => 
+builder.Services.AddDbContext<ResearchSitesDbContext>(options => 
         options.UseSqlServer(builder.Configuration["Data:SchoolLocal:ConnectionString"]));
 
 // added from MVC template
@@ -23,7 +23,7 @@ WebApplication app = builder.Build();
 // https://stackoverflow.com/a/71461320/1385857
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<SchoolDbContext>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<ResearchSitesDbContext>();
     dbContext.Database.EnsureCreated();
 }
 
